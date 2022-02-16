@@ -4,11 +4,13 @@
     background-color: #fff;
 }
 
-.formbox{
+.formboxs{
     width: 100%;
     padding: 50px;
     background-color: #fff;
 }
+
+
 
 .headingarea{
     display: flex;
@@ -16,6 +18,7 @@
     justify-content: space-between;
     padding: 20px;
     color: #fff;
+    width: 100%;
 }
 
 input[type=text],[type=date], select {
@@ -102,7 +105,7 @@ input[type=text],[type=date], select {
         padding-top: 10px;
         padding-bottom: 10px;
     }
-    .formbox{
+    .formboxs{
         width: 100%;
         padding: 20px;
         background-color: #fff;
