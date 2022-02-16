@@ -97,6 +97,16 @@ input[type=text],[type=date], select {
     .contentarea{
         width: 98%;
     }
+    .row{
+        display: block;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .formbox{
+        width: 100%;
+        padding: 20px;
+        background-color: #fff;
+    }
 }
 
 @media only screen and (max-width: 799px)  {

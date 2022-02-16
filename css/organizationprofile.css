@@ -13,20 +13,6 @@
     flex-direction: row;
 }
 
-@media only screen and (max-width: 600px) {
-    .row {
-      flex-direction: column;
-    }
-    .contain{
-        margin-top: 20px;
-        width: 100%;
-    }
-    .organizationprofile{
-        width: 100%;
-        padding: 30px;
-        margin: auto;
-    }
-  }
 
 .col{ 
     float: left;
@@ -114,3 +100,19 @@
     padding-bottom: 30px;
     
   }
+
+  
+@media only screen and (max-width: 600px) {
+  .row {
+    flex-direction: column;
+  }
+  .contain{
+      margin-top: 20px;
+      width: 100%;
+  }
+  .organizationprofile{
+      width: 100%;
+      padding: 30px;
+      margin: auto;
+  }
+}
