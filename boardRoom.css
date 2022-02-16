@@ -1,0 +1,147 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background-color:#E5E5E5;
+}
+
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* background-color: DodgerBlue; */
+  }
+  #sidebar{
+      width: 100%;
+      margin:auto;
+   
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 30px;
+    border-radius: 1px;
+    
+  }
+  a{
+      text-decoration: none;
+      
+  }
+
+  .tag{
+    display: flex;
+      
+  }
+  .tag:hover,  a:hover {
+    background-color: #A91F2F;
+}
+  .vector{
+      display: flex;
+     
+border-radius: 1px;
+Offset: 0px, 0px;
+
+  }
+a h4{
+    font-size: 18px;
+    Line-height: 21px;
+    line-height: 100%;
+    
+  
+    
+    padding-left: 30px;
+    color: #000000;
+    
+  }
+  img{
+      color: #000000;
+  }
+  .vector4{
+    display: flex;
+  
+
+  }
+
+
+  #wine h4{
+      color: #000000;
+  }
+  #wine img{
+      color: #000000;
+  }
+  .vector3{
+    display: flex;
+    
+
+  }
+  .vector2{
+    display: flex;
+
+  }
+  .aboutcontainer{
+    padding: 30px;
+    margin: 20px;
+    background-color: #fff;
+  }
+  .aboutcontainer h4{
+    color: #A91F2F;
+  }
+  .aboutcontainer p{
+font-weight: 400;
+line-height: 22px;
+font-size: 14px;
+letter-spacing: 0em;
+text-align: left;
+padding: 0 0 20px 20px;  
+  }
+  .content span{
+    
+    font-size: 14px;
+  }
+
+  .aboutcontainer ul li{
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+
+  }
+  .content{ 
+    padding: 0 0 20px 20px;  
+  }
+
+  .flexed{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .aboutcontainer h4{
+    margin-bottom: 10px;
+  }
+  .grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    /* justify-content: center;
+    align-items: center; */
+    height: 100%;
+    padding: 40px;
+    gap: 20px;
+  }
+
+  ul li{
+    margin-top: 10px;
+  }
+  .vector img{
+    width: 20px;
+  }

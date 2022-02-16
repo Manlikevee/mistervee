@@ -1,0 +1,107 @@
+.contentarea{
+    width: 90%;
+    margin: auto;
+    background-color: #fff;
+}
+
+.formbox{
+    width: 100%;
+    padding: 50px;
+    background-color: #fff;
+}
+
+.headingarea{
+    display: flex;
+    background-color: #a91f2f;
+    justify-content: space-between;
+    padding: 20px;
+    color: #fff;
+}
+
+input[type=text],[type=date], select {
+    width: 100%;
+    padding: 11px 18px;
+    background: #F4F4F4;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+
+
+  .formgroup{
+    padding-bottom: 20px;
+}
+
+.label{
+    color: #000000CC;
+
+}
+
+.formgroup .button {
+    background-color: #a92f41;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 14px 2px;
+    cursor: pointer;
+    border-radius: 9px;
+    display: flex;
+    float: right;
+  }
+
+  .row{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    padding-top: 10px;
+    padding-bottom: 10px;
+    grid-gap: 20px;
+}
+
+.experience{
+    background-color: #a91f2f;
+    padding: 16px;
+    color: #fff;
+    width: 20%;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.titleheader{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+    }
+    
+    
+    .cv{
+        background-color: #c3c3c3;
+        padding: 18px;
+        border-radius: 7px;
+        cursor: pointer;
+        
+    }
+    
+
+
+@media only screen and (max-width: 799px)  {
+
+    .contentarea{
+        width: 98%;
+    }
+}
+
+@media only screen and (max-width: 799px)  {
+
+    .experience{
+        width: 100%;
+    }
+}
